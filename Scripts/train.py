@@ -35,7 +35,7 @@ hyperparams = [
     },
 ]
 
-def train_agent(env_id="BreakoutNoFrameskip-v4", total_timesteps=100000):
+def train_agent(env_id="ALE/Breakout-v5", total_timesteps=100000):
     env = make_env(env_id)
     eval_env = make_env(env_id)
     
@@ -82,5 +82,5 @@ def train_agent(env_id="BreakoutNoFrameskip-v4", total_timesteps=100000):
         eval_env.close()
 
 if __name__ == "__main__":
-    ENV_ID = "BreakoutNoFrameskip-v4"
+    ENV_ID = "ALE/Breakout-v5"
     train_agent(env_id=ENV_ID, total_timesteps=1000000)
