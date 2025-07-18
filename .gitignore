@@ -24,6 +24,7 @@ wheels/
 venv/
 ENV/
 env/
+env_py311/
 
 # IDE
 .vscode/
