@@ -24,7 +24,7 @@ Several hyperparameter configurations were tested to optimize the DQN agent's pe
 | Learning Rate (lr) | Gamma (γ) | Batch Size | Epsilon (start → end, decay) | Observed Behavior                                                                                                                                                         |
 | ------------------ | --------- | ---------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1e-4               | 0.99      | 32         | 1.0 → 0.05, decay = 0.1      | After 200k steps: Mean reward = **-21** (agent lost every point). Loss stabilized at **0.0008** (still high). Episode length: **762 steps**. Exploration ended at **5%**. |
-| 1e-3               | 0.98      | 128         | 1.0 → 0.01, decay = 0.3      | After 200k steps: Mean reward = **-21** (agent lost every point). Loss stabilized at **0.0008** (still high). Episode length: **762 steps**. Exploration ended at **5%**. |
+| 1e-3               | 0.98      | 128         | 1.0 → 0.01, decay = 0.3      | After 500,000 steps: Mean evaluation reward reached -7.40 ± 4.80, showing improved gameplay performance. The agent achieved an average episode length of 12,269 steps ± 550, indicating longer survival. The model checkpoint with best performance was saved at models/dqn_pong_config_1.zip. During training, the average reward stabilized around -17.60, with a final loss of approximately 0.0023. Exploration concluded at 1%, and a total of 122,499 updates were performed. |
 
 
 
