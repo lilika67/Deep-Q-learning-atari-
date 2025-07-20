@@ -80,7 +80,7 @@ autorom --accept-license
 | Team Member            | Responsibilities                                                                 |
 |------------------------|----------------------------------------------------------------------------------|
 | **Sifa Mwachoni**      | Developed `train.py`, implemented CNN/MLP policy comparison, conducted tuning experiments |
-| **Liliane Kayitesi**   | Created the `play.py` script for model evaluation and gameplay visualization | Implemented model loading functionality with environment consistency checks |
+| **Liliane Kayitesi**   | Created the `play.py` script for model evaluation, Implemented model loading functionality with environment consistency checks |
 | **Denys Ntwaritangazwa** | conducted tuning experiments , analyzed agent performance, and documented findings  |
 
 ---
