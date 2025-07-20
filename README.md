@@ -1,18 +1,54 @@
 #  Deep Q-Learning for Atari Games
 
-This repository contains an implementation of Deep Q-Learning (DQN) using **Stable Baselines3** and **Gymnasium** to train and evaluate a reinforcement learning agent in an Atari environment. The agent learns an optimal policy for playing the selected game through deep Q-learning.
+This repository contains an implementation of Deep Q-Learning (DQN) using **Stable Baselines3** and **Gymnasium** to train and evaluate a reinforcement learning agent in an Atari environment. The agent learns an optimal policy for playing the selected game through deep Q-learning.We focused on training an agent to play **Pong** using the **Arcade Learning Environment (ALE)**.
+
 
 ---
 
-## Project Structure
 
-```bash
-dqn-atari-agent/
-├── Scripts/
-│   ├── train.py 
-│   ├── play.py  
-└── README.md
+##  Project Structure
+
 ```
+Deep-Q-learning-atari-/
+├── Scripts/                    # Directory for training and saved scripts
+│   ├── train.py               # Script to train the agent
+│   └── play.py                # Script to play the trained agent
+├── models/                    # Directory for saved models
+├── logs/                      # Training logs and evaluation results
+├── tensorboard/              # TensorBoard logs
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project overview and instructions
+```
+
+##  Installation
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/lilika67/Deep-Q-learning-atari-.git
+cd Deep-Q-learning-atari-
+```
+
+### 2. Create a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate  
+```
+
+### 3. Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Install Atari environments and dependencies:
+```bash
+pip install "gymnasium[atari,accept-rom-license]"
+pip install ale-py autorom
+autorom --accept-license
+```
+
+---
+
+
 
 ##  Hyperparameter Tuning and Results
 
@@ -44,7 +80,7 @@ dqn-atari-agent/
 | Team Member            | Responsibilities                                                                 |
 |------------------------|----------------------------------------------------------------------------------|
 | **Sifa Mwachoni**      | Developed `train.py`, implemented CNN/MLP policy comparison, conducted tuning experiments |
-| **Liliane Kayitesi**   | Created `play.py`|
+| **Liliane Kayitesi**   | Created the `play.py` script for model evaluation and gameplay visualization | Implemented model loading functionality with environment consistency checks |
 | **Denys Ntwaritangazwa** | conducted tuning experiments , analyzed agent performance, and documented findings  |
 
 ---
