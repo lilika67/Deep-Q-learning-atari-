@@ -37,7 +37,7 @@ Several hyperparameter configurations were tested to optimize the DQN agent's pe
 
 > *Include a video here demonstrating your agent playing the game, e.g., as a linked MP4 or GIF.*
 
-- **Video Link**: [Watch Agent Play Atari Game](#)  
+- **Video Link**: [[Watch Agent Play Atari Game](https://youtu.be/ibV23DYnSFk)](#)  
 - **Script**: `play.py` uses the trained policy with `GreedyQPolicy` to render the agent’s real-time performance.
 
 ---
