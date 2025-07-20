@@ -21,8 +21,10 @@ Several hyperparameter configurations were tested to optimize the DQN agent's pe
 
 ### Hyperparameter Configurations
 
-| Experiment | Learning Rate (lr) | Gamma (γ) | Batch Size | Epsilon (start → end, decay) | Noted Behavior |
-|------------|---------------------|-----------|-------------|-------------------------------|----------------|
+| Learning Rate (lr) | Gamma (γ) | Batch Size | Epsilon (start → end, decay) | Observed Behavior                                                                                                                                                         |
+| ------------------ | --------- | ---------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1e-4               | 0.99      | 32         | 1.0 → 0.05, decay = 0.1      | After 200k steps: Mean reward = **-21** (agent lost every point). Loss stabilized at **0.0008** (still high). Episode length: **762 steps**. Exploration ended at **5%**. |
+
 
 
 > **Policy Comparison**:  
