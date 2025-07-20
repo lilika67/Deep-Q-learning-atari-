@@ -13,9 +13,6 @@ Deep-Q-learning-atari-/
 ├── Scripts/                    # Directory for training and saved scripts
 │   ├── train.py               # Script to train the agent
 │   └── play.py                # Script to play the trained agent
-├── models/                    # Directory for saved models
-├── logs/                      # Training logs and evaluation results
-├── tensorboard/              # TensorBoard logs
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project overview and instructions
 ```
