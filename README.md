@@ -9,15 +9,14 @@ This repository contains an implementation of Deep Q-Learning (DQN) using **Stab
 ```bash
 dqn-atari-agent/
 ├── Scripts/
-│   ├── train.py      # Script to train the DQN agent
-│   ├── play.py       # Script to evaluate the trained agent
-├── models/           # Saved models (e.g., dqn_model.zip)
+│   ├── train.py 
+│   ├── play.py  
 └── README.md
 ```
 
 ##  Hyperparameter Tuning and Results
 
-Several hyperparameter configurations were tested to optimize the DQN agent's performance. The table below summarizes the experimental setups and observed behavior.
+ The table below summarizes the experimental setups and observed behavior.
 
 ### Hyperparameter Configurations
 
@@ -35,9 +34,6 @@ Several hyperparameter configurations were tested to optimize the DQN agent's pe
 ---
 
 ##  Agent Demo
-
-> *Include a video here demonstrating your agent playing the game, e.g., as a linked MP4 or GIF.*
-
 - **Video Link**: [[Watch Agent Play Atari Game](https://youtu.be/ibV23DYnSFk)](#)  
 - **Script**: `play.py` uses the trained policy with `GreedyQPolicy` to render the agent’s real-time performance.
 
