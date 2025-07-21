@@ -13,10 +13,12 @@ Deep-Q-learning-atari-/
 ├── Scripts/                    # Directory for training and saved scripts
 │   ├── train.py               # Script to train the agent
 │   └── play.py                # Script to play the trained agent
+│   └── train-config2            # training with different configurations
 ├── .gitignore                 # file to ignore on github
 ├── requirements.tx           # Python dependencies 
 └── README.md                 # Project overview and instructions
 ```
+
 
 ##  Installation
 
