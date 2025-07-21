@@ -32,7 +32,7 @@ env = DummyVecEnv([make_custom_atari_env])
 env = VecFrameStack(env, n_stack=4)
 
 # Step 3: Load the pre-trained model (change name if needed)
-model_path = "models/dqn_pong_config_1"  # ⬅️ Change to your actual model path
+model_path = "models/dqn_pong_config_1"  # 
 model = DQN.load(model_path)
 
 # Step 4: Evaluate the agent visually
